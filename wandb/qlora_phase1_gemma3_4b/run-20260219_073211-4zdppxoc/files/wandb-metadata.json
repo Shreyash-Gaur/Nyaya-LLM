@@ -1,0 +1,39 @@
+{
+  "os":  "Linux-6.6.113+-x86_64-with-glibc2.35",
+  "python":  "CPython 3.12.12",
+  "startedAt":  "2026-02-19T07:32:11.632971Z",
+  "args":  [
+    "-f",
+    "/tmp/tmpd3g34cth.json",
+    "--HistoryManager.hist_file=:memory:"
+  ],
+  "program":  "<python with no main file>",
+  "email":  "Shreyashgaur01@gmail.com",
+  "root":  "/kaggle/working",
+  "host":  "b9d9db0a44bf",
+  "executable":  "/usr/bin/python3",
+  "cpu_count":  2,
+  "cpu_count_logical":  4,
+  "gpu":  "Tesla P100-PCIE-16GB",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "8656922775552",
+      "used":  "7174265618432"
+    }
+  },
+  "memory":  {
+    "total":  "33662472192"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "Tesla P100-PCIE-16GB",
+      "memoryTotal":  "17179869184",
+      "cudaCores":  3584,
+      "architecture":  "Pascal",
+      "uuid":  "GPU-d11c9aaa-2489-7db2-666e-a8ee556660e2"
+    }
+  ],
+  "cudaVersion":  "13.0",
+  "writerId":  "3o47f1v8kbg3dmndbaj8zthvkm6eytxr"
+}
