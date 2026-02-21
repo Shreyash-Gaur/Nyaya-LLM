@@ -69,11 +69,13 @@ The models successfully adapted to the highly complex syntax of Indian Legal tex
 
 ### 2. Proof of Hardware Optimization (VRAM Management)
 Fine-tuning a 4-Billion parameter model typically requires massive infrastructure. 
-* **GPU Memory Allocation:** Visual proof of our VRAM optimization strategy. By leveraging 4-bit `nf4` quantization alongside strict batch control, peak GPU memory utilization was strictly capped well below the 16 GB hardware limit. This ensures the training pipeline is highly reproducible on accessible, low-cost cloud GPUs (like Kaggle P100s/T4s).
+* **GPU Memory Allocation:** Visual proof of our VRAM optimization strategy. By leveraging 4-bit `nf4` quantization alongside strict batch control, peak GPU memory utilization was strictly capped well below the 16 GB hardware limit. This ensures the training pipeline is highly reproducible on accessible, low-cost cloud GPUs (like Kaggle P100s).
 
 <p align="center">
   <img src="assets/gpu_memory.png" width="70%" title="GPU Memory Allocation (GB)">
 </p>
+
+
 ---
 
 ## ⏳ Phase 2 (In Progress): Synthetic Reasoning Augmentation
