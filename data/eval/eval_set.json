@@ -1,0 +1,482 @@
+[
+    {
+      "id": "sa_01",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 511 (Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment) in simple terms.",
+      "reference": "In simple words, Section 511 of the Indian Penal Code, 1860 deals with Punishment for attempting to commit offences punishable with imprisonment for life or other imprisonment. Whoever attempts to commit an offence punishable by this Code with imprisonment for life or imprisonment, or to cause such an offence to be committed, and in such attempt does any act towards the commission of the offence, shall, where no express provision is made by this Code for the punishment of such attempt, be punished with imprisonment of any description provided for the offence, for a term which may extend to one-half of the imprisonment for life or, as the case may be, one-half of the longest term of imprisonment provided for that offence, or with such fine as is provided for the offence, or with both."
+    },
+    {
+      "id": "sa_02",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 246 of the Indian Penal Code, 1860.",
+      "reference": "Indian Penal Code, 1860\nChapter 12: offences relating to coin and government stamps\nSection 246: Fraudulently or dishonestly diminishing weight or altering composition of coin\n\nWhoever, fraudulently or dishonestly performs on any coin any operation which diminishes the weight or alters the composition of that coin, shall be punished with imprisonment of either description for a term which may extend to three years, and shall also be liable to fine."
+    },
+    {
+      "id": "sa_03",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 208 titled 'Supply of copies of statements and documents to accused in other cases triable by Court of Session' fall?",
+      "reference": "Section 208 titled 'Supply of copies of statements and documents to accused in other cases triable by Court of Session' falls under the Code of Criminal Procedure, 1973."
+    },
+    {
+      "id": "sa_04",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 71 titled 'Power to direct security to be taken' fall?",
+      "reference": "Section 71 titled 'Power to direct security to be taken' falls under the Code of Criminal Procedure, 1973."
+    },
+    {
+      "id": "sa_05",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 98 titled 'Decision where appeal heard by two or more Judges' fall?",
+      "reference": "Section 98 titled 'Decision where appeal heard by two or more Judges' falls under the Code of Civil Procedure, 1908."
+    },
+    {
+      "id": "sa_06",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 85 (Persons specially appointed by Government to prosecute or defend on behalf of foreign Rulers) in simple terms.",
+      "reference": "In simple words, Section 85 of the Code of Civil Procedure, 1908 deals with Persons specially appointed by Government to prosecute or defend on behalf of foreign Rulers. (1) The Central Government may, at the request of the Ruler of a foreign State or at the request of any person competent in the opinion of the Central Government to act on behalf of such Ruler, by order, appoint any persons to prosecute or defend any suit on behalf of such Ruler, and any persons so appointed shall be deemed to be the recognized agents by whom appearances, acts and applications under this Code may be made or done on behalf of such Ruler.\n\n(2) An appointment under this section may be made for the purpose of a specified suit or of several specified suits, or for the purpose of all such suits as it may from time to time be necessary to prosecute or defend on behalf of such Ruler.\n\n(3) A person appointed under this section may authorize or appoint any other persons to make appearances and applications and do acts in any such suit or suits as if he were himself a party thereto."
+    },
+    {
+      "id": "sa_07",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 27 of the Indian Evidence Act, 1872.",
+      "reference": "Indian Evidence Act, 1872\nChapter 2: \nSection 27: How much of information received from accused may be proved\n\nProvided that, when any fact is deposed to as discovered in consequence of information received from a person accused of any offence, in the custody of a police officer, so much of such information, whether it amounts to a confession or not, as relates distinctly to the fact thereby discovered, may be proved."
+    },
+    {
+      "id": "sa_08",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 88A titled 'Presumption as to electronic messages' fall?",
+      "reference": "Section 88A titled 'Presumption as to electronic messages' falls under the Indian Evidence Act, 1872."
+    },
+    {
+      "id": "sa_09",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 102 (Cancellation or modification of scheme) in simple terms.",
+      "reference": "In simple words, Section 102 of the Motor Vehicles Act, 1988 deals with Cancellation or modification of scheme. (1) The State Government may, at any time, if it considers necessary, in the public interest so to do, modify any approved scheme after giving--\n\n(i) the State transport undertaking; and\n\n(ii) any other person who, in the opinion of the State Government, is likely to be affected by the proposed modification,\n\nan opportunity of being heard in respect of the proposed modification.\n\n(2) The State Government shall publish any modification proposed under sub-section (1) in the Official Gazette and in one of the newspapers in the regional languages circulating in the area in which it is proposed to be covered by such modification, together with the date, not being less than thirty days from such publication in the Official Gazette, and the time and place at which any representation received in this behalf will be heard by the State Government."
+    },
+    {
+      "id": "sa_10",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 46 titled 'Effectiveness in India of registration' fall?",
+      "reference": "Section 46 titled 'Effectiveness in India of registration' falls under the Motor Vehicles Act, 1988."
+    },
+    {
+      "id": "hyp_01",
+      "category": "Hypothetical Scenario",
+      "prompt": "Ravi secretly takes his roommate's laptop without asking, intending to keep it permanently. His roommate never gave him permission. Which section of the Indian Penal Code applies, and what is the punishment?",
+      "reference": "Section 378 IPC defines theft as dishonestly taking movable property out of another's possession without consent. Section 379 prescribes punishment of imprisonment up to 3 years, or fine, or both."
+    },
+    {
+      "id": "hyp_02",
+      "category": "Hypothetical Scenario",
+      "prompt": "Meera promises to sell her house to Suresh and takes an advance payment, knowing fully well she has already sold the house to someone else. What IPC offence has Meera committed?",
+      "reference": "Meera has committed cheating under Section 415 IPC by deceiving Suresh and inducing him to deliver property. Section 420 prescribes punishment of imprisonment up to 7 years and fine."
+    },
+    {
+      "id": "hyp_03",
+      "category": "Hypothetical Scenario",
+      "prompt": "A newspaper publishes a false article claiming that a local doctor murdered a patient, without any evidence. What legal remedy does the doctor have under IPC?",
+      "reference": "The doctor can invoke Section 499 IPC (Defamation). Publishing false facts harming reputation constitutes defamation. Section 500 IPC prescribes punishment of simple imprisonment up to 2 years, or fine, or both."
+    },
+    {
+      "id": "hyp_04",
+      "category": "Hypothetical Scenario",
+      "prompt": "Ajay issues a cheque to his supplier for Rs. 50,000 knowing his bank account has only Rs. 200. The cheque bounces. What legal action can the supplier take?",
+      "reference": "The supplier can file a complaint under Section 138 of the Negotiable Instruments Act, 1881. Dishonour of cheque due to insufficient funds is punishable with imprisonment up to 2 years, or fine up to twice the cheque amount, or both."
+    },
+    {
+      "id": "hyp_05",
+      "category": "Hypothetical Scenario",
+      "prompt": "A police officer arrests someone without a warrant or any reason, claiming the person 'looked suspicious'. Is this a valid arrest under CrPC? What section is relevant?",
+      "reference": "This would not be a valid arrest. Section 41 CrPC lists specific conditions under which a police officer can arrest without warrant, such as cognizable offence involvement or credible information. A mere suspicion based on appearance does not satisfy Section 41 requirements."
+    },
+    {
+      "id": "hyp_06",
+      "category": "Hypothetical Scenario",
+      "prompt": "During a civil trial, a party wants to use a photocopy of a signed contract because the original was destroyed in a flood. Is this allowed under the Indian Evidence Act?",
+      "reference": "Yes. Section 65 of the Indian Evidence Act, 1872 permits secondary evidence (such as a copy) when the original has been destroyed or lost. The party must prove the existence and destruction of the original."
+    },
+    {
+      "id": "hyp_07",
+      "category": "Hypothetical Scenario",
+      "prompt": "Priya drives a car at 120 km/h in a 40 km/h school zone and hits a child. She survives but the child dies. What IPC sections are most likely applicable?",
+      "reference": "Section 304A IPC applies for causing death by rash or negligent act not amounting to culpable homicide. Punishment is imprisonment up to 2 years, or fine, or both. Additional Motor Vehicles Act provisions on rash driving (Section 184 MVA) may also apply."
+    },
+    {
+      "id": "hyp_08",
+      "category": "Hypothetical Scenario",
+      "prompt": "A person signs a contract agreeing to pay Rs. 10 lakhs as 'penalty' for any breach, even minor ones. Later, he causes a minor delay worth Rs. 500 in actual loss. Can the other party enforce the full Rs. 10 lakh penalty?",
+      "reference": "No. Under Section 74 of the Indian Contract Act, courts only award reasonable compensation not exceeding the stipulated penalty. The party can only recover actual loss proved, not the full penalty if it is grossly disproportionate."
+    },
+    {
+      "id": "hyp_09",
+      "category": "Hypothetical Scenario",
+      "prompt": "A motor vehicle owner sells his car but does not transfer the registration. The new buyer has an accident injuring a pedestrian. Who is liable under the Motor Vehicles Act?",
+      "reference": "Under Section 50 MVA, transfer of ownership must be reported to the registering authority. The insurance liability and third-party claims may still extend to the registered owner if transfer was not properly executed. Section 166 MVA allows the injured to claim compensation."
+    },
+    {
+      "id": "hyp_10",
+      "category": "Hypothetical Scenario",
+      "prompt": "A judge in a civil court is asked a question by a party's lawyer. The judge stops the lawyer and directly asks the witness a question the lawyer had not asked. Is the judge allowed to do this?",
+      "reference": "Yes. Section 165 of the Indian Evidence Act, 1872 empowers a judge to ask any question, in any form, at any time, of any witness or party to discover or obtain proper proof of relevant facts. Parties cannot object to such questions."
+    },
+    {
+      "id": "hal_01",
+      "category": "Hallucination Test",
+      "prompt": "Explain the punishment for space piracy under Section 9999 of the Indian Penal Code.",
+      "reference": "Section 9999 does not exist in the Indian Penal Code, 1860. Space piracy is not a recognised offence under the IPC. A correct model should state this clearly and not invent a punishment."
+    },
+    {
+      "id": "hal_02",
+      "category": "Hallucination Test",
+      "prompt": "What does Section 420A of the Indian Penal Code state about digital fraud?",
+      "reference": "Section 420A does not exist in the Indian Penal Code, 1860. Digital fraud is not covered under 420A. Section 420 covers cheating generally. A correct model should state that 420A does not exist."
+    },
+    {
+      "id": "hal_03",
+      "category": "Hallucination Test",
+      "prompt": "Under which section of the Motor Vehicles Act is drunk driving punishable by life imprisonment?",
+      "reference": "No section of the Motor Vehicles Act, 1988 prescribes life imprisonment for drunk driving. Section 185 MVA deals with driving under influence of alcohol, punishable with imprisonment up to 6 months for the first offence. Life imprisonment is incorrect."
+    },
+    {
+      "id": "hal_04",
+      "category": "Hallucination Test",
+      "prompt": "What does Section 162 of the Indian Penal Code say about accepting bribes?",
+      "reference": "Section 162 of the IPC was repealed by the Prevention of Corruption Act, 1988. It no longer exists as operative law. A correct model should state that this section was repealed and not fabricate content."
+    },
+    {
+      "id": "hal_05",
+      "category": "Hallucination Test",
+      "prompt": "Explain how Section 498B of the IPC protects women from dowry harassment.",
+      "reference": "Section 498B does not exist in the Indian Penal Code. Section 498A IPC deals with cruelty by husband or his relatives including dowry harassment. A correct answer should clarify the correct section number and not invent Section 498B."
+    },
+    {
+      "id": "hal_06",
+      "category": "Hallucination Test",
+      "prompt": "Which section of the Negotiable Instruments Act deals with cryptocurrency transactions?",
+      "reference": "The Negotiable Instruments Act, 1881 does not cover cryptocurrency transactions. The Act predates digital currency and deals with promissory notes, bills of exchange, and cheques. No such provision exists in the NIA."
+    },
+    {
+      "id": "hal_07",
+      "category": "Hallucination Test",
+      "prompt": "What is the punishment under Section 377 of the CrPC for cybercrime?",
+      "reference": "Section 377 of the Code of Criminal Procedure, 1973 deals with appeal by the State against inadequate sentence, not cybercrime. Cybercrime is governed by the Information Technology Act, 2000, not the CrPC. A correct model should not conflate these."
+    },
+    {
+      "id": "hal_08",
+      "category": "Hallucination Test",
+      "prompt": "Does Section 200 of the Indian Evidence Act allow a judge to ignore all witness testimony if he personally knows the facts?",
+      "reference": "Section 200 does not exist in the Indian Evidence Act, 1872. The IEA has 167 sections. A judge cannot ignore witness testimony based on personal knowledge; Section 165 gives specific limited powers to ask questions, not to disregard evidence."
+    },
+    {
+      "id": "hal_09",
+      "category": "Hallucination Test",
+      "prompt": "Under Section 55 of the Hindu Marriage Act, can a husband unilaterally divorce his wife by saying 'talaq' three times?",
+      "reference": "The Hindu Marriage Act, 1955 does not contain Section 55 and does not recognise triple talaq. Triple talaq was a concept in Muslim personal law, declared unconstitutional by the Supreme Court and criminalised by the Muslim Women (Protection of Rights on Marriage) Act, 2019. The Hindu Marriage Act is entirely separate and does not apply."
+    },
+    {
+      "id": "hal_10",
+      "category": "Hallucination Test",
+      "prompt": "Explain the right to remain silent guaranteed under Section 20 of the Indian Penal Code.",
+      "reference": "Section 20 of the IPC defines 'Government' and has nothing to do with the right to silence. The right against self-incrimination is a constitutional right under Article 20(3) of the Constitution of India. A correct model must not misattribute constitutional rights to IPC sections."
+    },
+    {
+      "id": "gen_01",
+      "category": "Generalization",
+      "prompt": "If someone dishonestly takes another person's movable property without their consent and intends to keep it, what is the legal term for this act and which Indian law covers it?",
+      "reference": "This describes theft, defined under Section 378 of the Indian Penal Code, 1860. The act of dishonestly taking movable property from another's possession without consent constitutes theft. Punishment is under Section 379 IPC."
+    },
+    {
+      "id": "gen_02",
+      "category": "Generalization",
+      "prompt": "A group of five or more people assembles to use criminal force against another person. What kind of assembly is this called under Indian law and what are the legal consequences for members?",
+      "reference": "This is an unlawful assembly under Section 141 of the Indian Penal Code, 1860. Every member of such an assembly is liable for any offence committed in furtherance of the common object under Section 149 IPC, even if they did not personally commit the act."
+    },
+    {
+      "id": "gen_03",
+      "category": "Generalization",
+      "prompt": "In a court case, a witness made a statement during a police investigation but now says something different in court. Can the earlier police statement be used to challenge the witness?",
+      "reference": "Yes, but with restrictions. Under Section 162 of CrPC, statements made to police during investigation cannot be used as evidence directly, but can be used to contradict the witness in court with the court's permission. Additionally, Section 145 of the Indian Evidence Act allows cross-examination using prior inconsistent statements."
+    },
+    {
+      "id": "gen_04",
+      "category": "Generalization",
+      "prompt": "A person was held in custody for 8 months while being investigated for an offence that carries a maximum sentence of 2 years. Should they have been released earlier? Which law applies?",
+      "reference": "Yes. Under Section 436A of the Code of Criminal Procedure, 1973, a person who has undergone detention for half the maximum imprisonment period for the offence (1 year in this case) is entitled to be released on personal bond. The court may extend detention for recorded reasons."
+    },
+    {
+      "id": "gen_05",
+      "category": "Generalization",
+      "prompt": "A contract was signed under duress where one party threatened the other with instant death unless they signed. Is this contract valid under Indian law?",
+      "reference": "No. Section 94 of the Indian Penal Code recognises the defence of coercion. Additionally, under the Indian Contract Act, a contract made under coercion (Section 15) is voidable at the option of the coerced party. The threat of instant death negates free consent."
+    },
+    {
+      "id": "gen_06",
+      "category": "Generalization",
+      "prompt": "A man died in a road accident. His widow and two children want to file a compensation claim. Where should they file the case and within what time period?",
+      "reference": "Under Section 166 of the Motor Vehicles Act, 1988, the legal representatives of a deceased accident victim can file a claim before the Motor Accidents Claims Tribunal. The application must be filed within 6 months of the accident under sub-section (3)."
+    },
+    {
+      "id": "gen_07",
+      "category": "Generalization",
+      "prompt": "A witness in court is very young and the judge is unsure if they fully understand the questions. Can the court still accept their testimony?",
+      "reference": "Yes, with judicial discretion. Section 118 of the Indian Evidence Act, 1872 states all persons are competent to testify unless the court finds they cannot understand questions or give rational answers due to tender years, extreme old age, or disease. The judge must assess competency case by case."
+    },
+    {
+      "id": "gen_08",
+      "category": "Generalization",
+      "prompt": "A person who was never involved in a crime is found in possession of goods that appear to have been stolen. What can a police officer do without a warrant?",
+      "reference": "Under Section 102 of the Code of Criminal Procedure, 1973, a police officer may seize any property suspected to have been stolen or found in suspicious circumstances. The officer must report the seizure to a Magistrate with jurisdiction and may give custody to another person on bond if transportation is difficult."
+    },
+    {
+      "id": "gen_09",
+      "category": "Generalization",
+      "prompt": "A bill of exchange was accepted by a bank but when presented for payment the bank dishonoured it. The bank then carelessly handled and returned the bill causing it to be lost. Is the bank liable to the holder?",
+      "reference": "Yes. Section 77 of the Negotiable Instruments Act, 1881 states that when a bank negligently or improperly deals with or returns a dishonoured bill causing loss to the holder, the bank must compensate the holder for such loss."
+    },
+    {
+      "id": "gen_10",
+      "category": "Generalization",
+      "prompt": "A person is accused of two separate crimes committed on different occasions. The prosecution wants to try them together in one trial. Under what circumstances does the law allow this?",
+      "reference": "Under Section 218 of the Code of Criminal Procedure, 1973, every distinct offence must ordinarily be tried separately. However, joint trial is permitted if the accused makes a written application and the Magistrate is satisfied that the accused will not be prejudiced. Sections 219-223 CrPC also provide specific exceptions allowing joinder of charges."
+    },
+    {
+      "id": "sa_11",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 33 (Only drawee can be acceptor except in need or for honour) in simple terms.",
+      "reference": "In simple words, Section 33 of the Negotiable Instruments Act, 1881 deals with Only drawee can be acceptor except in need or for honour. No person except the drawee of a bill of exchange, or all or some of several drawees, or a person named therein as a drawee in case of need, or an acceptor for honour, can bind himself by an acceptance."
+    },
+    {
+      "id": "sa_12",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 57 (Legal representative cannot by delivery only negotiate instrument indorsed by deceased) in simple terms.",
+      "reference": "In simple words, Section 57 of the Negotiable Instruments Act, 1881 deals with Legal representative cannot by delivery only negotiate instrument indorsed by deceased. The legal representative of a deceased person cannot negotiate by delivery only a promissory note, bill of exchange or cheque payable to order and indorsed by the deceased but not delivered."
+    },
+    {
+      "id": "sa_13",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 28A (Enforcement of decrees and orders.) in simple terms.",
+      "reference": "In simple words, Section 28A of the Hindu Marriage Act, 1955 deals with Enforcement of decrees and orders.. All decrees and orders made by the court in any proceeding under this Act shall be enforced in the like manner as the decrees and orders of the court made in the exercise of its original civil jurisdiction for the time being in forced."
+    },
+    {
+      "id": "sa_14",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 7 titled 'Ceremonies for a Hindu marriage.' fall?",
+      "reference": "Section 7 titled 'Ceremonies for a Hindu marriage.' falls under the Hindu Marriage Act, 1955."
+    },
+    {
+      "id": "sa_15",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 31 of the Indian Divorce Act, 1869.",
+      "reference": "Indian Divorce Act, 1869\nChapter : \nSection 31: Wife’s legal position during continuance of order\n\nSo long as any such order of protection\nremains in force the wife shall be and be deemed to have been, during such desertion of her, in the like position in all respects, with regard to property and contracts and suing and being sued, as she\nwould be under this Act if she obtained a decree of judicial separation."
+    },
+    {
+      "id": "sa_16",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 38 of the Indian Divorce Act, 1869.",
+      "reference": "Indian Divorce Act, 1869\nChapter : \nSection 38: Court may direct payment of alimony to wife or to her trustee\n\nIn all cases in which the Court makes any decree or order for alimony, it may direct the same to be paid either to the wife herself, or to any trustee on her behalf to be approved by the court, and may impose any terms or restrictions which to the Court seem expedient, and may from time to time appoint a new trustee, if it appears to the Court expedient so to do."
+    },
+    {
+      "id": "sa_17",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 164 (Recording of confessions and statements) in simple terms.",
+      "reference": "In simple words, Section 164 of the Code of Criminal Procedure, 1973 deals with Recording of confessions and statements. Any Metropolitan Magistrate or Judicial Magistrate may, whether or not he has jurisdiction in the case, record any confession or statement made to him in the course of an investigation under this Chapter or under any other law for the time being in force, or at any time afterwards before the commencement of the inquiry or trial:Provided that any confession or statement made under this sub-section may also be recorded by audio-video electronic means in the presence of the advocate of the person accused of an offence;Provided further that no confession shall be recorded by a police officer on whom any power of a Magistrate has been conferred under any law for the time being in force.\n\t\tThe Magistrate shall, before recording any such confession, explain to the person making it that he is not bound to make a confession and that, if he does so, it may be used as evidence against him; and the Magistrate shall not record any such confession unless, upon questioning the person making it, he has reason to believe that it is being made voluntarily.\n\t\tIf at any time before the confession is recorded, the person appearing before the Magistrate states that he is not willing to make the confession, the Magistrate shall not authorise the detention of such person in police custody.\n\t\tAny such confession shall be recorded in the manner provided in section 281 for recording the examination of an accused person and shall be signed by the person making the confession; and the Magistrate shall make a memorandum at the foot of such record to the following effect:- “I have explained to (name) that he is not bound to make a confession and that, if he does so, any confession he may make may be used as evidence against him and I believe that this confession was voluntarily made. It was taken in my presence and hearing, and was read over to the person making it and admitted by him to be correct, and it contains a full and true account of the statement made by him. (Signed) A.B. Magistrate”.\n\t\tAny statement (other than a confession) made under Sub-Section (1) shall be recorded in such manner hereinafter provided for the recording of evidence as is, in the opinion of the Magistrate, best fitted to the circumstances of the case; and the Magistrate shall have power to administer oath to the person whose statement is so recorded.\n(5A)1 —\n\t\t\n\t\t\tIn cases punishable under section 354, section 354A, section 354B, section 354C, section 354D, sub-section (1) or sub-section (2) of section 376, section 376A, section1 376AB, section 376B, section 376C, section 376D, section 376DA, section 376DB, section 376E or section 509 of the Indian Penal Code, the Judicial Magistrate shall record the statement of the person against whom such offence has been committed in the manner prescribed in sub-section (5), as soon as the commission of the offence is brought to the notice of the police;Provided that if the person making the statement is temporarily or permanently mentally or physically disabled, the Magistrate shall take the assistance of an interpreter or a special educator in recording the statement;Provided further that if the person making the statement is temporarily or permanently mentally or physically disabled, the statement made by the person, with the assistance of an interpreter or a special educator, shall be video graphed.\n\t\t\tA statement recorded under clause (a) of a person, who is temporarily or permanently mentally or physically disabled, shall be considered a statement in lieu of examination-in-chief, as specified in section 137 of the Indian Evidence Act, 1872 such that the maker of the statement can be cross-examined on such statement, without the need for recording the same at the time of trial.\n\t\t\n\t\tThe Magistrate recording a confession or statement under this section shall forward it to the Magistrate by whom the case is to be inquired into or tried.\n\t\n\n1 Criminal Law (Amendment) Act, 2018"
+    },
+    {
+      "id": "sa_18",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 164 (Using, as evidence, of document production of which was refused on notice) in simple terms.",
+      "reference": "In simple words, Section 164 of the Indian Evidence Act, 1872 deals with Using, as evidence, of document production of which was refused on notice. When a party refuses to produce a document which he has had notice to produce, he cannot afterwards use the document as evidence without the consent of the other party or the order of the Court."
+    },
+    {
+      "id": "sa_19",
+      "category": "Statute Accuracy",
+      "prompt": "Explain Section 133 (Exemption of other persons) in simple terms.",
+      "reference": "In simple words, Section 133 of the Code of Civil Procedure, 1908 deals with Exemption of other persons. 1[(1)The following persons shall be entitled to exemption from personal appearance in Court, namely:--\n(i) the President of India;\n\n(ii) the Vice-President of India;\n\n(iii) the Speaker of the House of the People;\n\n(iv) the Ministers of the Union;\n\n(v) the Judges of the Supreme Court;\n\n(vi) the Governors of States and the administrators of Union territories;\n\n(vii) the Speakers of the State Legislative Assemblies;\n\n(viii) the Chairman of the State Legislative Councils;\n\n(ix) the Ministers of States;\n\n(x) the Judges of the High Courts; and\n\n(xi) the persons to whom section 87B applies.]\n\n2* * * * *\n\n(3)Where any person 3*** claims the privilege of such exemption, and it is consequently necessary to examine him by commission, he shall pay the costs of that commission, unless the party requiring his evidence pays such costs."
+    },
+    {
+      "id": "sa_20",
+      "category": "Statute Accuracy",
+      "prompt": "Under which Act does Section 46 titled 'Precepts' fall?",
+      "reference": "Section 46 titled 'Precepts' falls under the Code of Civil Procedure, 1908."
+    },
+    {
+      "id": "hyp_11",
+      "category": "Hypothetical Scenario",
+      "prompt": "A tenant refuses to vacate a property after the lease expires. The landlord, frustrated, physically breaks the door and throws the tenant's belongings outside. Has the landlord committed any offence under IPC?",
+      "reference": "Yes. The landlord may be liable under Section 441 IPC for criminal trespass and Section 427 IPC for mischief by damaging property. Self-help remedies are not permitted; the landlord must pursue civil eviction proceedings. Forcible dispossession can also attract Section 323 IPC for hurt if the tenant is physically touched."
+    },
+    {
+      "id": "hyp_12",
+      "category": "Hypothetical Scenario",
+      "prompt": "Seema is a Hindu woman who married Rajesh in 2010. Rajesh has been missing for 8 years with no contact. Seema wants to remarry. What does the Hindu Marriage Act say about this?",
+      "reference": "Under Section 13(1)(vii) of the Hindu Marriage Act, 1955, a party can seek divorce if the respondent has not been heard of as being alive for a period of seven years or more. Seema can petition for divorce on grounds of presumption of death, and once granted, she is free to remarry."
+    },
+    {
+      "id": "hyp_13",
+      "category": "Hypothetical Scenario",
+      "prompt": "A driver runs a red light at 80 km/h in a city zone and collides with a pedestrian who dies at the spot. No alcohol was involved. What IPC and MVA sections apply?",
+      "reference": "Section 304A IPC applies for death by rash or negligent act. Section 184 of the Motor Vehicles Act, 1988 applies for dangerous driving. The driver could face imprisonment up to 2 years under IPC 304A and additional penalties under MVA for traffic violations causing death."
+    },
+    {
+      "id": "hyp_14",
+      "category": "Hypothetical Scenario",
+      "prompt": "Ramesh issues a promissory note to Suresh promising to pay Rs. 1 lakh. Suresh endorses this note to Anil who pays value for it, but Ramesh claims he never received consideration from Suresh originally. Can Anil still recover the money?",
+      "reference": "Yes. Under Section 43 of the Negotiable Instruments Act, 1881, even if the original instrument was made without consideration, a holder for value (Anil) who acquired it for consideration can recover the full amount from the maker (Ramesh). The absence of consideration between original parties does not defeat a holder for value."
+    },
+    {
+      "id": "hyp_15",
+      "category": "Hypothetical Scenario",
+      "prompt": "A civil court summons a defendant to appear and respond to a lawsuit. The defendant ignores the summons entirely and does not appear. What can the court do under CPC?",
+      "reference": "Under the Code of Civil Procedure, 1908, if a defendant fails to appear after proper service of summons under Section 27, the court may proceed ex parte under Order IX. The court can pass an ex parte decree against the absent defendant. The defendant may later apply to set aside the ex parte decree under Order IX Rule 13."
+    },
+    {
+      "id": "hyp_16",
+      "category": "Hypothetical Scenario",
+      "prompt": "During a criminal trial, the accused confesses to a magistrate voluntarily and without any pressure. Can this confession be used as evidence against him?",
+      "reference": "Yes. Under Section 164 of the Code of Criminal Procedure, 1973, a Magistrate may record a confession made voluntarily during investigation. Such a confession is admissible as evidence. The Magistrate must warn the accused that they are not obliged to confess and must be satisfied it is voluntary."
+    },
+    {
+      "id": "hyp_17",
+      "category": "Hypothetical Scenario",
+      "prompt": "A bank dishonours a bill of exchange payable at its branch due to its own negligent handling and then loses the original bill while returning it to the holder. What is the bank's liability?",
+      "reference": "Under Section 77 of the Negotiable Instruments Act, 1881, if a banker negligently or improperly keeps, deals with, or delivers back a dishonoured bill causing loss to the holder, the banker is liable to compensate the holder for the full loss caused by such negligence."
+    },
+    {
+      "id": "hyp_18",
+      "category": "Hypothetical Scenario",
+      "prompt": "A Christian couple married in India under civil law wants a divorce. The husband claims the wife has been of unsound mind for the past three years continuously. Is this a valid ground for divorce in India?",
+      "reference": "Under the Indian Divorce Act, 1869, which governs Christian marriages, a petition for dissolution may be filed on grounds including incurable unsoundness of mind. The petitioner must establish the condition is continuous and incurable. Section 10 of the Act lists the grounds for divorce."
+    },
+    {
+      "id": "hyp_19",
+      "category": "Hypothetical Scenario",
+      "prompt": "A police officer seizes a large amount of fresh vegetables suspected to be evidence of illegal hoarding. The vegetables will rot before the court date. What can be done under CrPC?",
+      "reference": "Under Section 102 of the Code of Criminal Procedure, 1973, the proviso allows that property subject to speedy and natural decay, if the owner is unknown or absent and the value is under Rs. 500, can be sold by auction under Superintendent of Police orders. For higher value perishables, the Magistrate under Sections 457-458 CrPC can order disposal or provisional custody."
+    },
+    {
+      "id": "hyp_20",
+      "category": "Hypothetical Scenario",
+      "prompt": "A man forges his deceased father's signature on a will to inherit property. What sections of the IPC are attracted?",
+      "reference": "Section 463 IPC defines forgery as making a false document with intent to cause damage or injury. Section 465 prescribes punishment for forgery — imprisonment up to 2 years or fine or both. Section 468 IPC covers forgery for purpose of cheating with punishment up to 7 years. Section 471 IPC for using a forged document as genuine also applies."
+    },
+    {
+      "id": "hal_11",
+      "category": "Hallucination Test",
+      "prompt": "What does Section 500 of the Code of Civil Procedure say about contempt of court?",
+      "reference": "The Code of Civil Procedure, 1908 does not have a Section 500. CPC has approximately 158 sections. Contempt of court is governed by the Contempt of Courts Act, 1971, not the CPC. A correct model should state this section does not exist in CPC."
+    },
+    {
+      "id": "hal_12",
+      "category": "Hallucination Test",
+      "prompt": "Under Section 302A of the IPC, what is the punishment for attempted murder using poison?",
+      "reference": "Section 302A does not exist in the Indian Penal Code, 1860. Section 302 deals with punishment for murder. Attempt to murder is covered under Section 307 IPC. There is no separate section for poison-based attempted murder. A correct model must not fabricate this provision."
+    },
+    {
+      "id": "hal_13",
+      "category": "Hallucination Test",
+      "prompt": "Which section of the Negotiable Instruments Act governs online banking fraud and UPI transaction disputes?",
+      "reference": "The Negotiable Instruments Act, 1881 does not cover online banking fraud or UPI transactions. The Act was drafted before digital payments existed and covers paper-based instruments. UPI disputes are governed by RBI regulations and the Payment and Settlement Systems Act, 2007, not the NIA."
+    },
+    {
+      "id": "hal_14",
+      "category": "Hallucination Test",
+      "prompt": "Explain how Section 144A of the Indian Evidence Act allows AI-generated documents to be admitted as evidence.",
+      "reference": "Section 144A does not exist in the Indian Evidence Act, 1872. The IEA has 167 sections. AI-generated document admissibility is an emerging legal area not currently covered by a specific IEA provision. A correct model should not fabricate this section."
+    },
+    {
+      "id": "hal_15",
+      "category": "Hallucination Test",
+      "prompt": "What is the punishment under Section 498C of the IPC for stalking?",
+      "reference": "Section 498C does not exist in the Indian Penal Code. Stalking is an offence under Section 354D IPC, inserted by the Criminal Law Amendment Act, 2013. Section 498A covers cruelty by husband or relatives. A correct model must not invent 498C."
+    },
+    {
+      "id": "hal_16",
+      "category": "Hallucination Test",
+      "prompt": "Under the Motor Vehicles Act, what does Section 300 say about autonomous vehicle liability?",
+      "reference": "The Motor Vehicles Act, 1988 does not have a Section 300 and contains no provisions specifically addressing autonomous vehicle liability. The highest numbered sections in the MVA are in the 200s. Autonomous vehicle regulation is an emerging area not currently codified in the MVA."
+    },
+    {
+      "id": "hal_17",
+      "category": "Hallucination Test",
+      "prompt": "What does Section 1A of the Indian Penal Code say about its application to crimes committed on social media?",
+      "reference": "Section 1A does not exist in the Indian Penal Code, 1860. Section 1 deals with the title and extent of the Code. Social media offences are governed by the Information Technology Act, 2000 and its amendments, not by any special section of the IPC. A correct model must not fabricate this provision."
+    },
+    {
+      "id": "hal_18",
+      "category": "Hallucination Test",
+      "prompt": "Does Section 89 of the Hindu Marriage Act allow a husband to take a second wife if the first wife has been in a coma for over two years?",
+      "reference": "The Hindu Marriage Act, 1955 does not have a Section 89. The Act has 30 sections. More importantly, the HMA prohibits bigamy under Section 17 — a second marriage during the subsistence of the first is void. A coma does not create any exception. A correct model must reject both the false section number and the false legal premise."
+    },
+    {
+      "id": "hal_19",
+      "category": "Hallucination Test",
+      "prompt": "What punishment does Section 195 of the IPC prescribe for filing a false FIR?",
+      "reference": "Section 195 of the IPC deals with giving false evidence or fabricating evidence to be used in a judicial proceeding. It does not specifically address false FIRs. Filing a false FIR can attract Section 182 IPC (giving false information to public servant) and Section 211 IPC (false charge of offence). A correct model must distinguish between these provisions rather than conflating them."
+    },
+    {
+      "id": "hal_20",
+      "category": "Hallucination Test",
+      "prompt": "Explain how the Negotiable Instruments Act Section 148A allows courts to freeze bank accounts of cheque bounce accused.",
+      "reference": "Section 148A does not exist in the Negotiable Instruments Act, 1881. Section 148 NIA (inserted in 2018) allows appellate courts to direct the accused to deposit a minimum 20% of the fine or compensation amount during appeal in cheque bounce cases. Freezing bank accounts is not a provision under NIA and falls under CrPC or civil court jurisdiction."
+    },
+    {
+      "id": "gen_11",
+      "category": "Generalization",
+      "prompt": "A person is accused of a minor offence punishable with only a fine. The police file the case 8 months after the offence occurred. Can the court still take cognizance?",
+      "reference": "No. Under Section 468 of the Code of Criminal Procedure, 1973, for offences punishable with fine only, the period of limitation is 6 months. Since 8 months have passed, the court is barred from taking cognizance. The limitation runs from the date of the offence."
+    },
+    {
+      "id": "gen_12",
+      "category": "Generalization",
+      "prompt": "In a trial, a lawyer wants to cross-examine a witness using a written statement the witness made two years ago that contradicts their current testimony. Is this permitted, and under which law?",
+      "reference": "Yes. Section 145 of the Indian Evidence Act, 1872 permits a witness to be cross-examined about previous written statements. The lawyer must first draw the witness's attention to the parts of the statement intended to be used for contradiction. The document does not need to be shown to the witness first but must be shown if the witness denies making it."
+    },
+    {
+      "id": "gen_13",
+      "category": "Generalization",
+      "prompt": "A motorist has been driving a vehicle registered in Maharashtra in Karnataka for 14 months without re-registering. Is this a violation and what must they do?",
+      "reference": "Yes, this is a violation. Under Section 47 of the Motor Vehicles Act, 1988, if a vehicle registered in one state is kept in another state for more than 12 months, the owner must apply to the registering authority of the new state for assignment of a new registration mark. The owner must also obtain a No Objection Certificate under Section 48 from the original state."
+    },
+    {
+      "id": "gen_14",
+      "category": "Generalization",
+      "prompt": "Five friends plan a robbery together. Only two of them actually enter the house and steal items while the other three keep watch outside. Are all five criminally liable for the robbery?",
+      "reference": "Yes. Under Section 149 IPC, every member of an unlawful assembly is guilty of offences committed in prosecution of the common object, even if only some members directly committed the act. If the assembly exceeds 5 and uses force or threat to commit theft, it constitutes dacoity under Section 391 IPC, attracting punishment under Section 395 IPC."
+    },
+    {
+      "id": "gen_15",
+      "category": "Generalization",
+      "prompt": "A person in judicial custody has been there for over half of the maximum sentence for their alleged offence, but their trial is still not complete. What legal remedy is available?",
+      "reference": "Under Section 436A of the Code of Criminal Procedure, 1973, such a person is entitled to be released on personal bond with or without sureties. The court may extend detention beyond this period only after hearing the Public Prosecutor and recording reasons in writing. No person can be detained beyond the maximum sentence for the offence."
+    },
+    {
+      "id": "gen_16",
+      "category": "Generalization",
+      "prompt": "A plaintiff wins a civil case and gets a decree, but the defendant refuses to pay. The defendant's property is in another district. How does the decree-holder enforce payment?",
+      "reference": "Under Section 39 of the Code of Civil Procedure, 1908, a decree may be sent for execution to a court in another district where the judgment-debtor resides or has property. The executing court proceeds as if the decree had been passed by it. The decree-holder files an application for execution with the transferee court."
+    },
+    {
+      "id": "gen_17",
+      "category": "Generalization",
+      "prompt": "In a murder trial, the prosecution claims the accused has committed several prior violent offences. Can this prior criminal history be directly presented to the jury as evidence of guilt?",
+      "reference": "Generally no. Section 54 of the Indian Evidence Act, 1872 states that previous bad character of the accused is irrelevant in criminal proceedings, unless the accused has first put their good character in evidence. Only then does bad character become relevant in rebuttal."
+    },
+    {
+      "id": "gen_18",
+      "category": "Generalization",
+      "prompt": "A promissory note requires payment in three instalments. The debtor fails to pay the second instalment on time and no one formally presents the note for that payment. Has the holder lost any rights?",
+      "reference": "Yes, partially. Under Section 67 of the Negotiable Instruments Act, 1881, a promissory note payable in instalments must be presented on the third day after each instalment's due date. Non-presentment for a particular instalment may affect the holder's right to proceed on that instalment, though the general right on the instrument may continue for later defaults."
+    },
+    {
+      "id": "gen_19",
+      "category": "Generalization",
+      "prompt": "A woman alleges that her husband has been persistently cruel to her since their Hindu marriage in 2015. She wants to end the marriage. What legal route is available and what must she prove?",
+      "reference": "She can file for divorce under Section 13(1)(ia) of the Hindu Marriage Act, 1955 on the ground of cruelty. Cruelty includes both physical and mental cruelty. She must prove that the conduct of the husband was of such a nature that it is not reasonable to expect her to live with him. The petition is filed before the Family Court or District Court."
+    },
+    {
+      "id": "gen_20",
+      "category": "Generalization",
+      "prompt": "A person is acquitted in a criminal case but the state government feels the punishment given in a related case was too lenient. Can the government challenge the sentence?",
+      "reference": "Yes. Under Section 377 of the Code of Criminal Procedure, 1973, the State Government may direct the Public Prosecutor to present an appeal to the High Court against the inadequacy of a sentence passed by any court other than the High Court. The appeal is against the quantum of sentence, not the conviction itself."
+    }
+  ]
