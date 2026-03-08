@@ -1,0 +1,189 @@
+======================================================================
+📊   PHASE 1 vs PHASE 2 — lora_phi4
+======================================================================
+
+  Phase_1:
+    Overall avg : 2.64 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          2.85  ██  (n=20)
+      Hypothetical Scenario     3.35  ███  (n=20)
+      Hallucination Test        1.35  █  (n=20)
+      Generalization            3.00  ███  (n=20)
+
+  Phase_2:
+    Overall avg : 2.81 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.45  ███  (n=20)
+      Hypothetical Scenario     3.10  ███  (n=20)
+      Hallucination Test        1.65  █  (n=20)
+      Generalization            3.05  ███  (n=20)
+
+----------------------------------------------------------------------
+  DELTA (Phase 2 - Phase 1):
+    Statute Accuracy          P1=2.85  P2=3.45  ⬆️  +0.60
+    Hypothetical Scenario     P1=3.35  P2=3.10  ⬇️  -0.25
+    Hallucination Test        P1=1.35  P2=1.65  ⬆️  +0.30
+    Generalization            P1=3.00  P2=3.05  ➡️  +0.05
+
+    OVERALL                   P1=2.64  P2=2.81  ⬆️  +0.17
+======================================================================
+
+
+
+======================================================================
+📊  PHASE 1 vs PHASE 2 — qlora_phi4
+======================================================================
+
+  Phase_1:
+    Overall avg : 2.84 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.25  ███  (n=20)
+      Hypothetical Scenario     3.30  ███  (n=20)
+      Hallucination Test        1.85  █  (n=20)
+      Generalization            2.95  ██  (n=20)
+
+  Phase_2:
+    Overall avg : 2.96 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.45  ███  (n=20)
+      Hypothetical Scenario     3.15  ███  (n=20)
+      Hallucination Test        2.10  ██  (n=20)
+      Generalization            3.15  ███  (n=20)
+
+----------------------------------------------------------------------
+  DELTA (Phase 2 - Phase 1):
+    Statute Accuracy          P1=3.25  P2=3.45  ⬆️  +0.20
+    Hypothetical Scenario     P1=3.30  P2=3.15  ⬇️  -0.15
+    Hallucination Test        P1=1.85  P2=2.10  ⬆️  +0.25
+    Generalization            P1=2.95  P2=3.15  ⬆️  +0.20
+
+    OVERALL                   P1=2.84  P2=2.96  ⬆️  +0.12
+======================================================================
+
+
+
+======================================================================
+📊  PHASE 1 vs PHASE 2 — lora_qwen3
+======================================================================
+
+  Phase_1:
+    Overall avg : 3.04 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.20  ███  (n=20)
+      Hypothetical Scenario     3.30  ███  (n=20)
+      Hallucination Test        2.45  ██  (n=20)
+      Generalization            3.20  ███  (n=20)
+
+  Phase_2:
+    Overall avg : 2.95 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.45  ███  (n=20)
+      Hypothetical Scenario     3.10  ███  (n=20)
+      Hallucination Test        2.20  ██  (n=20)
+      Generalization            3.05  ███  (n=20)
+
+----------------------------------------------------------------------
+  DELTA (Phase 2 - Phase 1):
+    Statute Accuracy          P1=3.20  P2=3.45  ⬆️  +0.25
+    Hypothetical Scenario     P1=3.30  P2=3.10  ⬇️  -0.20
+    Hallucination Test        P1=2.45  P2=2.20  ⬇️  -0.25
+    Generalization            P1=3.20  P2=3.05  ⬇️  -0.15
+
+    OVERALL                   P1=3.04  P2=2.95  ⬇️  -0.09
+======================================================================
+
+
+
+======================================================================
+📊  PHASE 1 vs PHASE 2 — qlora_qwen3
+======================================================================
+
+  Phase_1:
+    Overall avg : 2.95 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.50  ███  (n=20)
+      Hypothetical Scenario     3.00  ███  (n=20)
+      Hallucination Test        2.00  ██  (n=20)
+      Generalization            3.30  ███  (n=20)
+
+  Phase_2:
+    Overall avg : 3.02 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.60  ███  (n=20)
+      Hypothetical Scenario     3.35  ███  (n=20)
+      Hallucination Test        1.65  █  (n=20)
+      Generalization            3.50  ███  (n=20)
+
+----------------------------------------------------------------------
+  DELTA (Phase 2 - Phase 1):
+    Statute Accuracy          P1=3.50  P2=3.60  ⬆️  +0.10
+    Hypothetical Scenario     P1=3.00  P2=3.35  ⬆️  +0.35
+    Hallucination Test        P1=2.00  P2=1.65  ⬇️  -0.35
+    Generalization            P1=3.30  P2=3.50  ⬆️  +0.20
+
+    OVERALL                   P1=2.95  P2=3.02  ⬆️  +0.07
+======================================================================
+
+
+
+======================================================================
+📊  PHASE 1 vs PHASE 2 — lora_gemma3
+======================================================================
+
+  Phase_1:
+    Overall avg : 2.91 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          2.80  ██  (n=20)
+      Hypothetical Scenario     3.40  ███  (n=20)
+      Hallucination Test        2.20  ██  (n=20)
+      Generalization            3.25  ███  (n=20)
+
+  Phase_2:
+    Overall avg : 2.86 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.40  ███  (n=20)
+      Hypothetical Scenario     3.00  ███  (n=20)
+      Hallucination Test        2.05  ██  (n=20)
+      Generalization            3.00  ███  (n=20)
+
+----------------------------------------------------------------------
+  DELTA (Phase 2 - Phase 1):
+    Statute Accuracy          P1=2.80  P2=3.40  ⬆️  +0.60
+    Hypothetical Scenario     P1=3.40  P2=3.00  ⬇️  -0.40
+    Hallucination Test        P1=2.20  P2=2.05  ⬇️  -0.15
+    Generalization            P1=3.25  P2=3.00  ⬇️  -0.25
+
+    OVERALL                   P1=2.91  P2=2.86  ⬇️  -0.05
+======================================================================
+
+
+
+======================================================================
+📊  PHASE 1 vs PHASE 2 — qlora_gemma3
+======================================================================
+
+  Phase_1:
+    Overall avg : 3.09 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.65  ███  (n=20)
+      Hypothetical Scenario     3.15  ███  (n=20)
+      Hallucination Test        2.30  ██  (n=20)
+      Generalization            3.25  ███  (n=20)
+
+  Phase_2:
+    Overall avg : 3.08 / 5.0  (n=80/80)
+    By category :
+      Statute Accuracy          3.75  ███  (n=20)
+      Hypothetical Scenario     3.35  ███  (n=20)
+      Hallucination Test        2.05  ██  (n=20)
+      Generalization            3.15  ███  (n=20)
+
+----------------------------------------------------------------------
+  DELTA (Phase 2 - Phase 1):
+    Statute Accuracy          P1=3.65  P2=3.75  ⬆️  +0.10
+    Hypothetical Scenario     P1=3.15  P2=3.35  ⬆️  +0.20
+    Hallucination Test        P1=2.30  P2=2.05  ⬇️  -0.25
+    Generalization            P1=3.25  P2=3.15  ⬇️  -0.10
+
+    OVERALL                   P1=3.09  P2=3.08  ➡️  -0.01
+======================================================================
