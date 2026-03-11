@@ -1,6 +1,4 @@
 
----
-
 # Nyaya-LLM: Legal Domain Adaptation & Reasoning Alignment ⚖️
 
 Nyaya-LLM is an end-to-end Machine Learning pipeline designed to adapt foundational Large Language Models (LLMs) to the highly specialized domain of Indian Law.
@@ -51,9 +49,12 @@ The data clearly demonstrates the limitations of standard supervised fine-tuning
 
 ## 🧠 Phase 2: Reasoning Alignment (Synthetic Augmentation)
 
-To bridge the gap between *knowing* the law and *applying* the law, I engineered an automated data pipeline to generate 7,700 synthetic, step-by-step reasoning pairs based on the raw statutes.
+To bridge the gap between *knowing* the law and *applying* the law, I engineered an automated multi-pass data pipeline to generate 7,047 synthetic reasoning pairs from the raw statutes using Qwen2.5-7B-Instruct.
 
-To prevent **Catastrophic Forgetting**, the synthetic dataset was mixed with the original raw legal text, creating a heavily curated ~15,000-row instruction dataset. All the 4B models was then re-trained and identical Evaluations were conducted using a strict 1-5 semantic scoring rubric scored by our local Qwen2.5-7B judge across 150 curated legal queries.
+Both Phase 1 and Phase 2 adapters were fine-tuned **independently from the same frozen base model** — Phase 1 on 7,752 original statute samples, Phase 2 on 14,799 samples (7,752 original statutes + 7,047 synthetic reasoning pairs, mixed and shuffled with seed 42). This controlled design isolates the pure effect of augmented data without Phase 1 training signal contaminating Phase 2 results.
+
+All the 4B models was then re-trained and identical Evaluations were conducted using a strict 1-5 semantic scoring rubric scored by our local Qwen2.5-7B judge across 150 curated legal queries.
+
 | Model | Adapter | Overall Avg (Out of 5) | Act Identification | Direct Q&A |
 | --- | --- | --- | --- | --- |
 | **Qwen-3 (4B)** | **QLoRA** | **2.72 🏆** | **4.92** | 1.42 |
@@ -62,6 +63,14 @@ To prevent **Catastrophic Forgetting**, the synthetic dataset was mixed with the
 | Phi4:Mini (4B) | QLoRA | 2.55 | 4.54 | 1.26 |
 | Gemma-3 (4B) | LoRA | 2.45 | 3.87 | 1.29 |
 | Phi4:Mini (4B) | LoRA | 2.28 | 3.67 | 1.06 |
+
+#### ⚖️ Key Finding: "The Alignment Tax"
+
+A surface-level look at the data shows the overall average score only marginally improved from Phase 1 to Phase 2. However, the sub-metrics reveal a classic, highly documented LLM phenomenon: **The Alignment Tax (Sycophancy/Verbosity Bias).**
+
+1. **The Breakthrough:** The synthetic data successfully taught the model logic. Its ability to solve complex **Hypothetical Scenarios** jumped by an impressive `+0.35`, proving the model transitioned from rote memorization to active legal application. Furthermore, its **Act Identification** hit a near-perfect `4.92/5.0`.
+2. **The Trade-off:** By training the model on thousands of examples of brilliant, highly-detailed logical explanations, I inadvertently taught it to be an over-eager "people pleaser."
+3. **The Result:** When the AI Judge threw a trap at it (e.g., asking about a fake or repealed law), the Phase 1 model would simply fail to recall it. The Phase 2 model, however, was so determined to provide a detailed explanation that it fabricated highly logical, professional-sounding answers for fake laws, causing its Hallucination Test score to drop by `-0.35` and its Summarization score to dip due to verbosity.
 
 ### The Delta: Phase 2 vs. Phase 1
 
@@ -74,17 +83,13 @@ An 80-question strict evaluation set was used to directly compare the Phase 1 an
 | **Generalization** | 3.30 | 3.50 | ⬆️ +0.20 | Improved Concept Grasp |
 | **Hallucination Test** | 2.00 | 1.65 | ⬇️ -0.35 | *The Alignment Tax* |
 
----
+### 💡 Phase 2 Analysis
 
-## ⚖️ Key Finding: "The Alignment Tax"
+Direct Phase 1 vs Phase 2 comparison across 960 judge evaluations (80 questions × 6 models × 2 phases) revealed that Phase 2 consistently improved Statute Accuracy (+0.10 to +0.60 across all 6 models) but degraded Hypothetical Scenario performance in 4/6 models.
 
-A surface-level look at the data shows the overall average score only marginally improved from Phase 1 to Phase 2. However, the sub-metrics reveal a classic, highly documented LLM phenomenon: **The Alignment Tax (Sycophancy/Verbosity Bias).**
+Analysis indicates the 7B augmentation generator, constrained to source statute text, produced rephrased explanations rather than true applied reasoning scenarios — inflating dataset volume without adding genuine reasoning diversity. The best model (Qwen-3 QLoRA) was the exception, showing genuine Hypothetical gains (+0.35) alongside a hallucination trade-off (-0.35) consistent with increased generation confidence.
 
-1. **The Breakthrough:** The synthetic data successfully taught the model logic. Its ability to solve complex **Hypothetical Scenarios** jumped by an impressive `+0.35`, proving the model transitioned from rote memorization to active legal application. Furthermore, its **Act Identification** hit a near-perfect `4.92/5.0`.
-2. **The Trade-off:** By training the model on thousands of examples of brilliant, highly-detailed logical explanations, I inadvertently taught it to be an over-eager "people pleaser."
-3. **The Result:** When the AI Judge threw a trap at it (e.g., asking about a fake or repealed law), the Phase 1 model would simply fail to recall it. The Phase 2 model, however, was so determined to provide a detailed explanation that it fabricated highly logical, professional-sounding answers for fake laws, causing its Hallucination Test score to drop by `-0.35` and its Summarization score to dip due to verbosity.
-
-**Conclusion:** The ablation study successfully proves that synthetic reasoning data drastically improves a model's ability to apply logic and retain factual anchors, but it requires a careful balance to prevent the model from trading its foundational skepticism for over-eager reasoning.
+**Conclusion:** Synthetic augmentation reliably improves statute recall and generalisation but cannot bridge the deeper reasoning gap without a stronger generator grounded in real case law. This is the clear direction for Phase 3.
 
 ---
 
@@ -104,11 +109,6 @@ Building an end-to-end LLM pipeline on constrained cloud hardware presented seve
 * **End-to-End 16GB VRAM Optimization (Training & Evaluation):** Eliminated **Out-Of-Memory (OOM)** errors on a single 16GB GPU for both model training and "LLM-as-a-Judge" evaluation. For training, compressed the 4B model's active state to ~11GB using an aggressive optimization stack featuring `BitsAndBytes` 4-bit `nf4` double-quantization, gradient checkpointing, and a `paged_adamw_8bit` optimizer. For the "LLM-as-a-Judge" evaluation, successfully ran both the 4B candidate model and a 7B evaluation model simultaneously in VRAM by dual-quantizing both pipelines. Furthermore, optimized comparative benchmarking by dynamically swapping PEFT adapters (Phase 1 vs. Phase 2) onto a single frozen base model in memory, aggressively flushing the GPU cache between iterations to bypass strict hardware limits.
 
 - **Fault-Tolerant LLM Data Generation Pipeline:** Generating synthetic reasoning pairs required a multi-pass pipeline — each pass processing only samples rejected by the previous run, with the hallucination guard progressively loosened from `min(10, chunk_word_count // 3)` down to `min(7, chunk_word_count // 3)`. The threshold of 7 was held as a hard quality floor 705 samples that could not meet even this minimum overlap were permanently discarded rather than risk injecting ungrounded generations into the training set. Final yield: 7,047 high-quality synthetic pairs from 7,752 source samples (~91% coverage). Combined with `(instruction, chunk_index)` checkpoint keys, per-sample OOM recovery via tensor deletion and CUDA cache flushing, and a >12-hour safety timer, the pipeline completed across multiple Kaggle sessions without data corruption or duplicate entries.
-
-* **Controlled Experimental Design:** Both Phase 1 and Phase 2 adapters were fine-tuned independently from the same frozen base model — Phase 1 on 7,752 original statute samples, Phase 2 on 14,800 samples (original statutes + 7,047 Qwen2.5-7B-generated synthetic reasoning pairs, mixed and shuffled with seed 42). This controlled design isolates the pure effect of augmented data on model performance without Phase 1 training signal contaminating Phase 2 results.
-
-* **Diagnosing Mixed Augmentation Results:** LLM-as-Judge evaluation across 900 responses revealed that Phase 2 consistently improved Statute Accuracy (+0.10 to +0.60 across all 6 models) but degraded Hypothetical Scenario performance in 4/6 models. Analysis indicates the 7B augmentation generator, constrained to source statute text, produced rephrased explanations rather than true applied reasoning scenarios — inflating dataset volume without adding genuine reasoning diversity. This finding directly motivates using a stronger generator with real case law grounding in future iterations.
-
 
 
 ## 📈 Training Telemetry & Optimization (MLOps)
@@ -134,6 +134,10 @@ The models successfully adapted to the highly complex syntax of Indian Legal tex
 ### 2. Hardware Optimization & Accessibility
 Fine-tuning a 4-Billion parameter model typically requires massive infrastructure, but this pipeline was engineered for efficiency.
 * **Strict VRAM Capping:** Visual proof from W&B shows peak GPU memory utilization was strictly capped well below the 16 GB hardware limit. By leveraging 4-bit `nf4` quantization alongside strict batch control, the training pipeline is highly reproducible on accessible, low-cost cloud GPUs (like Colab or Kaggle T4s).
+
+<p align="center">
+  <img src="assets/gpu_memory.png" width="70%" title="GPU Memory Allocation (GB)">
+</p>
 
 ### 3. Targeted Adapter Architecture
 * **High-Capacity QLoRA:** Through iterative testing, I determined the optimal QLoRA configuration for complex reasoning tasks: a higher rank (`r=32`) and alpha (`lora_alpha=64`), targeting `all-linear` modules rather than just attention heads. This provided the model with enough "trainable surface area" (approx. 1.18% to 1.76% of total weights) to learn complex legal logic without overfitting.
